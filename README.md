@@ -46,7 +46,7 @@ _Servidor multimedia y de automatización, diseñado para disponibilidad continu
 
 ---
 
-###Inteligencia Artificial y Experimentación
+### Inteligencia Artificial y Experimentación
 
 **Hermes Node (Mac Mini M2 – 16GB RAM)**  
 _Nodo de I+D destinado a experimentación con modelos de lenguaje._  
