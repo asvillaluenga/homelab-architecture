@@ -105,6 +105,6 @@ _Estación de trabajo dedicada a IA generativa y síntesis visual._
 
  **Documentación complementaria:**  
 - [Hardware Inventory](./docs/hardware-inventory.md)  
-- [Docker Stack Overview](./docs/docker-stack-overview.png)
+- [Docker Stack Overview](./docs/docker-stack-overview.md)
 
 > _"Si no lo puedes medir, no lo puedes mejorar."_
