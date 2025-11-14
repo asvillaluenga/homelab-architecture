@@ -9,32 +9,32 @@ Documento técnico que describe la topología de red del Homelab, plan de direcc
 ```mermaid
 flowchart TB
   subgraph Core_Network [Core Network]
-    Rtr[ISP Router / Edge Router]
-    Swt[Netgear S350<br/>Smart Managed Pro]
-    AP[TP-Link Archer C80 (AP)]
+    Rtr["ISP Router / Edge Router"]
+    Swt["Netgear S350 - Smart Managed Pro"]
+    AP["TP-Link Archer C80 - AP"]
   end
 
   subgraph Servers [Server & Storage]
-    Atlas[Atlas Core<br/>Proxmox]
-    Helios[Helios Media Server]
-    DAS1[DAS Principal 64TB]
-    DAS2[DAS Backup 4x4TB (planned)]
+    Atlas["Atlas Core\n(Proxmox)"]
+    Helios["Helios Media Server"]
+    DAS1["DAS Principal 64TB"]
+    DAS2["DAS Backup 4x4TB (planned)"]
   end
 
   subgraph Security [Security & Monitoring]
-    Overwatch[Overwatch RPi4]
-    Sentinel[Sentinel RPi Zero W]
-    PiHole[Pi-hole Cluster (HA)]
-    WG[WireGuard (PiVPN)]
+    Overwatch["Overwatch RPi4"]
+    Sentinel["Sentinel RPi Zero W"]
+    PiHole["Pi-hole Cluster (HA)"]
+    WG["WireGuard (PiVPN)"]
   end
 
   subgraph Clients [Clients & IoT]
-    Personal[Personal Devices (VLAN5)]
-    Guest[Guest Devices (VLAN4)]
-    IoT[IoT Devices (VLAN3)]
-    Ender[Ender V3 SE (3D Printer)]
-    Aether[Aether Forge (Workstation)]
-    Hermes[Mac Mini M2]
+    Personal["Personal Devices (VLAN5)"]
+    Guest["Guest Devices (VLAN4)"]
+    IoT["IoT Devices (VLAN3)"]
+    Ender["Ender V3 SE (3D Printer)"]
+    Aether["Aether Forge (Workstation)"]
+    Hermes["Mac Mini M2"]
   end
 
   Rtr --> Swt
@@ -57,3 +57,4 @@ flowchart TB
   Atlas --> DAS1
   Helios --> DAS1
   Atlas --> DAS2
+
