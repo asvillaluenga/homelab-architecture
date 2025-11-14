@@ -72,7 +72,7 @@ _Estación de trabajo dedicada a IA generativa y síntesis visual._
 
 ## Topología de Red
 
-![Network Diagram](./docs/homelab-network-diagram.png)
+![Network Diagram](./docs/homelab-network-diagram.md)
 
 - Red principal segmentada en subredes (IoT, LAN, Media, VPN, Guests)
 - DNS interno con resolución recursiva y caché local
